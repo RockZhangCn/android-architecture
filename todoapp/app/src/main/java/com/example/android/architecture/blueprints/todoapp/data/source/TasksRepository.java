@@ -104,7 +104,7 @@ public class TasksRepository implements TasksDataSource {
 
         if (mCacheIsDirty) {
             // If the cache is dirty we need to fetch new data from the network.
-            getTasksFromRemoteDataSource(callback);
+            //getTasksFromRemoteDataSource(callback);
         } else {
             // Query the local storage if available. If not, query the network.
             mTasksLocalDataSource.getTasks(new LoadTasksCallback() {
@@ -253,7 +253,7 @@ public class TasksRepository implements TasksDataSource {
 
     @Override
     public void refreshTasks() {
-        mCacheIsDirty = true;
+        mCacheIsDirty = false;
     }
 
     @Override

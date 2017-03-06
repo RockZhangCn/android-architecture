@@ -15,9 +15,9 @@
   -->
 
 <resources>
-    <color name="colorPrimary">#455A64</color>
-    <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#D50000</color>
+    <color name="colorPrimary">#2c7bd6</color>
+    <color name="colorPrimaryDark">#2c7bd6</color>
+    <color name="colorAccent">#2c7bd6</color>
 
     <drawable name="completedTaskBackground">#CCCCCC</drawable>
 
